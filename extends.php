@@ -92,7 +92,7 @@ function extends_megamenu_my_portfolio_settings_form( $content_id = "{content_id
 				<?php 
 				// check plugin file wip-mega-menu-functions.php line 14
 				// if you can have custom taxonomy you can simply use this function to call in your form
-				// change 'category' into your taxonomy name
+				// change 'category' with your taxonomy name
 				echo wip_theme_get_tax_lists('category', 'mega-portfolio-cat['.$content_id.']', 'mega-portfolio-cat-'.$content_id, 'widefat', __('All Porfolio Categories', 'wip'), $cat_id );
 				?>
 			
